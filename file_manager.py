@@ -41,17 +41,17 @@ class MyHandler(FileSystemEventHandler):
             print(destination)
             os.rename(src, destination)
 
-folder_to_track = '/Users/kunaldarvesh/Downloads'
-folder_destination_1 = '/Users/kunaldarvesh/Desktop/sorted_downloads/PDFs'
-folder_destination_2 = '/Users/kunaldarvesh/Desktop/sorted_downloads/WhatsApp'
-folder_destination_3 = '/Users/kunaldarvesh/Desktop/sorted_downloads/Excel'
-folder_destination_4 = '/Users/kunaldarvesh/Desktop/sorted_downloads/Images/jpegs'
-folder_destination_5 = '/Users/kunaldarvesh/Desktop/sorted_downloads/Images/png'
-folder_destination_6 = '/Users/kunaldarvesh/Desktop/sorted_downloads/Word_docs'
-folder_destination_7 = '/Users/kunaldarvesh/Desktop/sorted_downloads/vids'
-folder_destination_8 = '/Users/kunaldarvesh/Desktop/sorted_downloads/ppts'
-folder_destination_9 = '/Users/kunaldarvesh/Desktop/sorted_downloads/Software'
-folder_destination_x = '/Users/kunaldarvesh/Desktop/sorted_downloads/To_be_sorted'
+folder_to_track = '/Users/<username>/Downloads'
+folder_destination_1 = '/Users/<username>/Desktop/sorted_downloads/PDFs'
+folder_destination_2 = '/Users/<username>/Desktop/sorted_downloads/WhatsApp'
+folder_destination_3 = '/Users/<username>/Desktop/sorted_downloads/Excel'
+folder_destination_4 = '/Users/<username>/Desktop/sorted_downloads/Images/jpegs'
+folder_destination_5 = '/Users/<username>/Desktop/sorted_downloads/Images/png'
+folder_destination_6 = '/Users/<username>/Desktop/sorted_downloads/Word_docs'
+folder_destination_7 = '/Users/<username>/Desktop/sorted_downloads/vids'
+folder_destination_8 = '/Users/<username>/Desktop/sorted_downloads/ppts'
+folder_destination_9 = '/Users/<username>/Desktop/sorted_downloads/Software'
+folder_destination_x = '/Users/<username>/Desktop/sorted_downloads/To_be_sorted'
 
 event_handler = MyHandler()
 observer = Observer()
